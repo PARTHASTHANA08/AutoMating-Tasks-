@@ -19,7 +19,7 @@ def automateTask():
     videoCaptureObject.release()
     cv2.destroyAllWindows()
 def uploadFile(imageName):
-    accessToken = ""
+    accessToken = "ZNtReac6tXkAAAAAAAAAAYLroav0jT5A3HwnKK_H_0j8bukLkmdZlzkDjGmoakUQ"
     file = imageName 
     file_from = file 
     file_to =  "/Pictures/" + imageName
